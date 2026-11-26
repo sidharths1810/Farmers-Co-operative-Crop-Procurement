@@ -38,10 +38,29 @@ CREATE TABLE `crop` (
 -- Dumping data for table `crop`
 --
 
+-- Sample crop records for project demonstration.
+-- Prices are illustrative sample values (₹ per kg), not live market rates.
 INSERT INTO `crop` (`crop_id`, `crop_name`, `season`, `price_per_kg`) VALUES
 (1, 'Rice', 'Kharif', 28.50),
 (2, 'Banana', 'Annual', 35.00),
-(3, 'Pepper', 'Rabi', 520.00);
+(3, 'Black Pepper', 'Rabi', 520.00),
+(4, 'Coconut', 'Annual', 32.00),
+(5, 'Arecanut', 'Annual', 380.00),
+(6, 'Tapioca', 'Annual', 22.00),
+(7, 'Ginger', 'Rabi', 95.00),
+(8, 'Turmeric', 'Kharif', 85.00),
+(9, 'Cardamom', 'Annual', 1800.00),
+(10, 'Cashew', 'Summer', 140.00),
+(11, 'Cocoa', 'Annual', 210.00),
+(12, 'Coffee', 'Rabi', 260.00),
+(13, 'Tea', 'Annual', 180.00),
+(14, 'Maize', 'Kharif', 24.00),
+(15, 'Groundnut', 'Kharif', 75.00),
+(16, 'Sugarcane', 'Annual', 4.00),
+(17, 'Tomato', 'Winter', 30.00),
+(18, 'Onion', 'Rabi', 38.00),
+(19, 'Okra (Lady Finger)', 'Summer', 42.00),
+(20, 'Mango', 'Summer', 65.00);
 
 -- --------------------------------------------------------
 
